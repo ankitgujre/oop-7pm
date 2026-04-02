@@ -46,11 +46,11 @@ the split() function returns a list where the string has been split at each matc
 '''
 
 # string = "Hello we are indian from bhopal"
-# string = "Hello we are indian from bhopal india"
+string = "Hello we are indian from bhopal india"
 
-# data = re.split("\s", string)
-# print(data)
-# print(type(data))
+data = re.split("\s", string)
+print(data)
+print(type(data))
 
 # you can control the number of occurence by specifying the max split parameter
 # data = re.split("\s", string, 3)

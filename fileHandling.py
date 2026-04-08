@@ -78,16 +78,16 @@ import os
 
 # to delete a file you can use the os module
 
-# os.remove("ankit3.txt")
-# print("File deleted successfully")
+os.remove("ankit3.txt")
+print("File deleted successfully")
 
 # check if file exists
-if os.path.exists("ankit4.txt"):
-    os.remove("ankit4.txt")
-    print("File deleted successfully")
-else:
-    print("file does not exist")
+# if os.path.exists("ankit4.txt"):
+#     os.remove("ankit4.txt")
+#     print("File deleted successfully")
+# else:
+#     print("file does not exist")
 
-# delete folder
-os.rmdir("ankitFolder")
-print("Folder deleted successfully")  # you can remove  empty folder
+# # delete folder
+# os.rmdir("ankitFolder")
+# print("Folder deleted successfully")  # you can remove  empty folder

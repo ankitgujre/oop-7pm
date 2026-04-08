@@ -18,13 +18,13 @@ print(x)
 print(x.year)
 print(x.month)
 print(x.day)
-# print(x.hour)
+print(x.hour)
 
 # strftime() method is used to format the date and time. It takes one argument, the format code.
 
 print(x.strftime("%A")) # %A is used to print the day of the week in full.
 print(x.strftime("%a")) # %a is used to print the day of the week in short.
-print(x.strftime("%A %B"))
+print(x.strftime("%A %B"))  # %A is used to print the day of the week in full and %B is used to print the month in full.
 print(x.strftime("%B")) # %B is used to print the month in full.
 print(x.strftime("%b")) # %b is used to print the month in short.
 print(x.strftime("%C")) # %C is used to print the century.

@@ -13,3 +13,4 @@ def fact(n):
     else:
         return n * fact(n - 1)
 print(fact(6))  # Output: 720
+
